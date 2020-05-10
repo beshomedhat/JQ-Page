@@ -1,0 +1,104 @@
+/*--------------------------(Home page)-------------------------------------*/
+.home
+{
+    background-image: url(../images/6852118-party-wallpaper.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.homeLayer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.homePage
+{
+    color: white;
+    width: 100%;
+    position: relative;
+}
+.homePage span
+{
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    padding-left: 10px;
+}
+.homePage h2
+{
+    font-size: 64px;
+}
+.menu
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    font-size: 32px;
+    background-color: gray;
+    padding: 20px; 
+    z-index: 9999;
+}
+.closebtn
+{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+.menu a
+{
+    color: white !important;
+}
+.menu a:hover
+{
+    color: rgb(214, 46, 51) !important;
+}
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------(singer)-------------------------------------*/
+.singer
+{
+    background-color: coral;
+    width: 70%;
+    color: white;
+}
+.singer p
+{
+    color: black;
+    background-color: whitesmoke;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------(duration)-------------------------------------*/
+.duration
+{
+    background-image: url(../images/joinusstock.jpeg);
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.durationLayer
+{
+    height: 100%;
+    width: 100%;    
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.durationContainer
+{
+    height: 100%;
+    width: 100%; 
+    text-align: center;
+}
+.duratinoTimer
+{
+    border: 1px solid white;
+    float: left;
+}
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------(join us)-------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
